@@ -2,7 +2,7 @@ const HdWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const {interface,bytecode} = require('./compile');
 
-const provider = new HdWalletProvider('chef source deliver sweet wear source divide never caught verify long certain',
+const provider = new HdWalletProvider('//mnemonic',
   'https://rinkeby.infura.io/oE7BJ9QHZ8hDOaZNjC2i');
 
 const web3 = new Web3(provider);
